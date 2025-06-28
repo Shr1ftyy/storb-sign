@@ -1,0 +1,7 @@
+storb nonce signing example
+
+cargo build --release
+cargo run --release -- --help
+
+example:
+cargo run -- --nonce "dd4ac8e5de8e64e5b77c36ce692f421585b9d8eed2fda6002b57151446bdfa5a" --wallet-path "/root/.bittensor/wallets/storb-dev-vali/hotkeys/vali0"2f421585b9d8eed2fda6002b571

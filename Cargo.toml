@@ -1,0 +1,9 @@
+[package]
+name = "storb-sign"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+crabtensor = { git = "https://github.com/storb-tech/crabtensor.git", version = "0.5.2" }
+hex = "0.4.3"
+clap = { version = "4.5.32", features = ["derive"] }
